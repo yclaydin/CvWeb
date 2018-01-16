@@ -1,0 +1,122 @@
+﻿body {
+    background-color: #0e9bc5;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+    header ul {
+        list-style: none;
+    }
+
+        header ul li {
+            float: left;
+            background-color: #808080;
+            padding: 10px;
+            border-radius: 10px;
+            margin-left: 5px;
+            text-align: center;
+        }
+
+            header ul li a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 22px;
+            }
+/*Projects Css*/
+.ProjectsGridBox {
+    width: 90%;
+    padding-left: 5%;
+}
+/*Change Personal Info Css*/
+.ResumeContextBox {
+    width: 60%;
+    padding-left: 10%;
+}
+
+    .ResumeContextBox .title {
+        font-size: 24px;
+    }
+
+    .ResumeContextBox .txt {
+        width: 100%;
+        height: 50px;
+    }
+/*Change Personal Info Css*/
+.PersonalInfoBox {
+    width: 100%;
+    padding-left: 15%;
+}
+
+    .PersonalInfoBox span {
+        float: left;
+    }
+/*Change Email / Password Css*/
+.ChangeEmailPassBox {
+    width: 300px;
+    height: 400px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    margin: auto;
+}
+
+    .ChangeEmailPassBox span {
+        width: 100px;
+        padding: 3px;
+        font-weight: bold;
+    }
+
+.Txtbox {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #ffffff;
+}
+
+.Buton {
+    width: 300px;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+    color: #ff0000;
+}
+/*Login Page Css*/
+.LoginBox {
+    width: 300px;
+    height: 180px;
+    background-color: red;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    margin: auto;
+}
+
+.LoginTxtbox {
+    width: 300px;
+    height: 25px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+}
+
+.LoginBtn {
+    width: 300px;
+    height: 25px;
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+.drpdown {
+    width: 500px;
+    height: 30px;
+}

@@ -1,0 +1,114 @@
+.left-content {
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+
+    .left-content h1 {
+        font-size: 50px;
+        color: #4D4D4D;
+        line-height: 0px;
+    }
+
+    .left-content ul {
+        list-style: none;
+        width: 100%;
+    }
+
+        .left-content ul li {
+            width: 100%;
+            float: left;
+            margin-bottom: 25px;
+            margin-top: 15px;
+        }
+
+            .left-content ul li span {
+                position: relative;
+                top: 40px;
+                width: 120px;
+                height: 120px;
+                color: #ffffff;
+            }
+
+.right-content {
+    width: 25%;
+    margin-left: 45px;
+    float: left;
+    height: 100%;
+    padding-top: 13%;
+}
+
+.paragraph {
+    text-align: left;
+    float: left;
+    width: 80%;
+}
+
+    .paragraph p {
+        margin-left: 30px;
+        margin-top: 30px;
+        color: #4D4D4D;
+        font-size: 13px;
+    }
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+}
+
+.circle-right {
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    font-size: 9px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.element {
+    padding-left: 40px;
+}
+
+    .element .left-icon {
+    }
+
+        .element .left-icon i {
+            color: #fff;
+            font-size: 32px;
+            margin-top: 5px;
+            width: 100%;
+        }
+
+    .element ul {
+        padding-left: 0px;
+    }
+
+        .element ul li {
+            list-style: none;
+            color: #4D4D4D;
+        }
+
+    .element h3 {
+        font-weight: normal;
+        font-size: 17px;
+        color: #4D4D4D;
+    }
+
+.red {
+    background-color: #E83556;
+}
+
+.blue {
+    background-color: #61D0D4;
+}
+
+.clear {
+    width: 100%;
+    height: 5px;
+}

@@ -1,0 +1,87 @@
+.left-content {
+    padding-left: 3%;
+    float: left;
+    width: 45%;
+}
+
+    .left-content h1 {
+        color: #4D4D4D;
+        font-size: 60px;
+        line-height: 0px;
+        padding-bottom: 55%;
+        margin-top: 25px;
+    }
+
+    .left-content .social-media {
+        width: 100%;
+        float: left;
+        font-size: 16px;
+    }
+
+    .left-content .contact-info {
+        width: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+
+.contact-info span {
+    color: #4D4D4D;
+}
+
+.contact-info a {
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+.right-content {
+    width: 50%;
+    float: left;
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    font-size: 16px;
+    color: #ffff;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+}
+
+    .circle i {
+        position: relative;
+        top: 7px;
+        width: 32px;
+        height: 32px;
+        color: #ffffff;
+    }
+
+.black {
+    background-color: #000000;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: #E83556;
+}
+
+    input[type=text]::placeholder, input[type=email]::placeholder, textarea::placeholder {
+        color: #fff;
+    }
+
+input[type=submit] {
+    background-color: #61D0D4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

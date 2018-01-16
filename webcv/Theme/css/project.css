@@ -1,0 +1,150 @@
+
+.page-title h1 {
+    font-size: 50px;
+    color: #4D4D4D;
+    line-height: 0px;
+}
+
+.element {
+    width: 100%;
+    height: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+    .element .left {
+        width: 60%;
+        float: left;
+    }
+
+    .element .right {
+        width: 40%;
+        float: left;
+    }
+
+        .element .right p {
+            color: #4D4D4D;
+            font-size: 13px;
+        }
+
+        .element .right h1 {
+            color: #4D4D4D;
+            font-size: 17px;
+        }
+
+.circle span {
+    position: relative;
+    top: 50px;
+    width: 120px;
+    height: 120px;
+    color: #ffffff;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+
+.blue {
+    background-color: #61D0D4;
+}
+/*Sldier Css */
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#carousel {
+    position: relative;
+    height: 200px;
+    top: 50%;
+    /* transform: translateY(-50%);*/
+    overflow: hidden;
+}
+
+    #carousel div {
+        position: absolute;
+        transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+        opacity: 1;
+    }
+
+        #carousel div img {
+            width: 200px;
+            transition: width 1s;
+        }
+
+        #carousel div.hideLeft {
+            left: 0%;
+            opacity: 0;
+            transform: translateY(50%) translateX(20%);
+        }
+
+            #carousel div.hideLeft img {
+                width: 100px;
+            }
+
+        #carousel div.hideRight {
+            left: 100%;
+            opacity: 0;
+            transform: translateY(50%) translateX(-120%);
+        }
+
+            #carousel div.hideRight img {
+                width: 100px;
+            }
+
+        #carousel div.prev {
+            z-index: 5;
+            left: 30%;
+            transform: translateY(30px) translateX(-30%);
+        }
+
+            #carousel div.prev img {
+                width: 150px;
+            }
+
+        #carousel div.prevLeftSecond {
+            z-index: 4;
+            left: 15%;
+            transform: translateY(50%) translateX(-20%);
+            opacity: 0.7;
+        }
+
+            #carousel div.prevLeftSecond img {
+                width: 100px;
+            }
+
+        #carousel div.selected {
+            z-index: 10;
+            left: 50%;
+            transform: translateY(0px) translateX(-50%);
+        }
+
+        #carousel div.next {
+            z-index: 5;
+            left: 60%;
+            transform: translateY(30px) translateX(-30%);
+        }
+
+            #carousel div.next img {
+                width: 150px;
+            }
+
+        #carousel div.nextRightSecond {
+            z-index: 4;
+            left: 70%;
+            transform: translateY(50%) translateX(0%);
+            opacity: 0.7;
+        }
+
+            #carousel div.nextRightSecond img {
+                width: 100px;
+            }
